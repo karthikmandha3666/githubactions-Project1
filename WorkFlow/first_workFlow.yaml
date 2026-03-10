@@ -1,0 +1,13 @@
+name: First Workflow
+on: Workflow_dispacth
+jobs:
+  First_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first - name
+        run: echo "this is my first yaml file"
+      - name: print "good bye"
+        run: |
+          echo "THis is my Workflow"
+          echo "WOrkflow execution successfully done"
+      
