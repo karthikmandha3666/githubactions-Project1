@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: first - name
         run: echo "this is my first yaml file"
-      - name: print "good bye"
+      - name: print good bye
         run: |
           echo "THis is my Workflow"
           echo "WOrkflow execution successfully done"
